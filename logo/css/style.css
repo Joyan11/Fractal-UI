@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: #74777b;
+  --background-color: #e7ecea;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.logo h1 {
+  font-weight: 300;
+  font-size: 7rem;
+  color: #a9a9a9;
+}
+
+.logo .logo-icon {
+  display: block;
+  color: #a9a9a9;
+  font-size: 10rem;
+}
+
+.info {
+  background-color: #fff;
+  padding: 1rem 0;
+  flex: 1;
+}
+
+.nav-container .list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.nav-container .list li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.7rem;
+  transition: border-bottom 0.5s ease;
+}
+
+.link-style {
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  color: black;
+}
+
+.nav-container .list li:hover {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+}
+
+.main-headings {
+  list-style: none;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.main-headings li {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.btn {
+  padding: 1rem 1.3rem;
+  font-size: 2rem;
+  margin: 2rem;
+  font-weight: 400;
+}
+
+.btn-enter {
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-plain {
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-rounded {
+  border-radius: 3.2rem;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-text {
+  font-size: 1.5rem;
+}
+
+.my-name a {
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+/* media query */
+@media (max-width: 786px) {
+  body {
+    max-width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: flex;
+    align-items: baseline;
+    font-size: 4rem;
+    color: var(--primary-color);
+  }
+
+  .logo-mobile ion-icon {
+    font-size: 7rem;
+  }
+
+  .nav-container {
+    display: none;
+  }
+}
