@@ -44,11 +44,11 @@
               ><ion-icon name="logo-github"></ion-icon>Github</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a class="link-style"
               ><ion-icon name="download-outline"></ion-icon> Download</a
             >
-          </li>
+          </li> -->
         </ul>
       </header>
       <div class="container">
@@ -57,7 +57,7 @@
             <li>
               <a
                 style="color: var(--primary-color)"
-                href="#"
+                href="#introduction-section"
                 class="link-style"
                 id=""
                 ><h4>Introduction</h4></a
@@ -106,11 +106,13 @@
                 >Rating</a
               >
             </li>
-            <li class="category">
+            <!-- <li class="category">
               <a href="#" class="link-style" id="grid">Grid</a>
-            </li>
+            </li> -->
             <li class="category">
-              <a href="#" class="link-style" id="uitilities">Utilities</a>
+              <a href="#text-section" class="link-style" id="uitilities"
+                >Text Utilities</a
+              >
             </li>
             <li class="category">
               <a href="#snackbar-section" class="link-style" id="snackbar"
@@ -120,6 +122,24 @@
           </ul>
         </aside>
         <main class="main">
+          <section id="introduction-section">
+            <h2>Introduction</h2>
+            <div class="examples">
+              <h3>Html Boiler plate to get started:</h3>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28231%2C236%2C234%2C1%29&t=material&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21DOCTYPE%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522UTF-8%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cmeta%2520http-equiv%253D%2522X-UA-Compatible%2522%2520content%253D%2522IE%253Dedge%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1.0%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%21--%2520VERY%2520IMPORTANT-%2520ADD%2520THE%2520LINE%2520BELOW%2520IN%2520YOUR%2520HTML%2520%2520--%253E%250A%2520%2520%2520%2520%253Clink%250A%2520%2520%2520%2520%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Ffractalui.netlify.app%252Fcss%252Ffractal.css%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Ctitle%253EDocument%253C%252Ftitle%253E%250A%2520%2520%253C%252Fhead%253E%250A%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%253C%21--%2520WRITE%2520YOUR%2520HTML%2520HERE%2520--%253E%250A%250A%2520%2520%2520%2520%253C%21--%2520VERY%2520IMPORTANT%2520-%2520ADD%2520THE%2520LINE%2520BELOW%2520IN%2520YOUR%2520HTML%2520--%253E%250A%2520%2520%2520%2520%253Cscript%2520src%253D%2522https%253A%252F%252Funpkg.com%252Fionicons%25405.4.0%252Fdist%252Fionicons.js%2522%253E%253C%252Fscript%253E%250A%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E%250A"
+                style="
+                  width: 804px;
+                  height: 576px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </section>
           <!-- Avatars -->
           <section id="avatar-section">
             <h2>Avatars</h2>
@@ -742,21 +762,33 @@
           <!-- Responsive Images -->
           <section id="image-section">
             <h2>Responsive images</h2>
-            <figure class="image">
-              <img class="image--l" src="./images/elephant.jpg" alt="image" />
+            <figure>
+              <img
+                class="image image--l"
+                src="./images/elephant.jpg"
+                alt="image"
+              />
             </figure>
-            <figure class="image">
-              <img class="image--m" src="./images/elephant.jpg" alt="image" />
+            <figure>
+              <img
+                class="image image--m"
+                src="./images/elephant.jpg"
+                alt="image"
+              />
             </figure>
-            <figure class="image">
-              <img class="image--s" src="./images/elephant.jpg" alt="image" />
+            <figure>
+              <img
+                class="image image--s"
+                src="./images/elephant.jpg"
+                alt="image"
+              />
             </figure>
 
             <div class="code-snippet">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28231%2C236%2C234%2C1%29&t=material&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522image%2522%253E%2520%253Cimg%2520class%253D%2522image--l%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522image%2522%253E%2520%253Cimg%2520class%253D%2522image--m%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522image%2522%253E%2520%253Cimg%2520class%253D%2522image--s%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28231%2C236%2C234%2C1%29&t=material&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%253E%2520%253Cimg%2520class%253D%2522image%2520image--l%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E%250A%253Cfigure%253E%2520%253Cimg%2520class%253D%2522image%2520image--m%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E%250A%253Cfigure%253E%2520%253Cimg%2520class%253D%2522image%2520image--s%2522%2520src%253D%2522.%252Fimages%252Felephant.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%2520%253C%252Ffigure%253E"
                 style="
-                  width: 900px;
+                  width: 904px;
                   height: 244px;
                   border: 0;
                   transform: scale(1);
@@ -999,6 +1031,22 @@
                 sandbox="allow-scripts allow-same-origin"
               >
               </iframe>
+            </div>
+          </section>
+
+          <section id="text-section">
+            <h2>Text utility</h2>
+            <div class="examples">
+              <p class="text text--left">This is LEFT Aligned text</p>
+              <p class="text text--center">This is CENTERED Aligned text</p>
+              <p class="text text--right">This is RIGHT Aligned text</p>
+              <p class="text text-xl">This is Extra Large Sized Text</p>
+              <p class="text text-l">This is Large Sized Text</p>
+              <p class="text text-m">This is Medium Sized Text</p>
+              <p class="text text-r">This is Regular Sized Text</p>
+              <p class="text text-s">This is small Sized text</p>
+              <p class="text text-capitalize">This is Capitalized text</p>
+              <p class="text text-uppercase">This is Uppercase text</p>
             </div>
           </section>
 
