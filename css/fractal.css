@@ -315,11 +315,11 @@ body {
   align-items: center;
   border-radius: 50%;
   border: none;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .btnfloat ion-icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 /* Cards */
@@ -638,3 +638,47 @@ body {
 }
 
 /* Text Utilities */
+
+.text {
+  letter-spacing: 0.1px;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text-capital {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-xl {
+  font-size: 4rem;
+}
+
+.text-l {
+  font-size: 3.5rem;
+}
+
+.text-m {
+  font-size: 3rem;
+}
+
+.text-r {
+  font-size: 1.6rem;
+}
+
+.text-s {
+  font-size: 1.2rem;
+}
