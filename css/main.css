@@ -156,6 +156,15 @@ section .examples > div {
   margin: 1.5rem 0;
 }
 
+#text-section div {
+  width: 100%;
+  max-width: 60%;
+}
+
+#text-section p {
+  padding-top: 1rem;
+}
+
 /* Media queries */
 
 @media (max-width: 786px) {
@@ -191,7 +200,7 @@ section .examples > div {
     top: 60px;
     z-index: 1;
     background-color: var(--background-color);
-    height: 250px;
+    height: 150px;
     min-width: 100%;
     overflow-y: scroll;
     border-right: none;
