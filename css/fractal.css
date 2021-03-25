@@ -1,6 +1,6 @@
 /* A JOYAN SERRAO PRODUCTION */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400,700&display=swap");
 
 * {
   margin: 0;
@@ -46,6 +46,8 @@ body {
   --info-icon: #2196f3;
   --border-light: #cecedd;
   --card-badge: #ddb467;
+  --light-gray: #a9abb3;
+  --peach: #eaded7;
 }
 
 .link {
@@ -353,7 +355,7 @@ body {
 }
 
 .card--m {
-  max-width: 27rem;
+  max-width: 24rem;
   height: auto;
 }
 
@@ -373,16 +375,13 @@ body {
 }
 
 .card--horizontal .card--image > img {
-  max-width: 25rem;
+  max-width: 20rem;
   display: block;
 }
 
 .card--body {
   padding: 1.5rem;
-}
-
-.card--title {
-  font-size: 2rem;
+  width: 100%;
 }
 
 .card .card--image--s > img {
@@ -392,16 +391,29 @@ body {
 
 .card--body > * {
   margin: 0.3rem 0;
+  padding-top: 0.3rem;
+}
+
+.card--title {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .card--text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.card--subtext {
+  font-size: 1.2rem;
+  color: var(--light-gray);
+  text-decoration: line-through;
 }
 
 .card--button {
   width: 100%;
   max-width: 50%;
   padding: 0.8rem;
+  margin-top: 0.5rem;
   align-self: center;
 }
 
