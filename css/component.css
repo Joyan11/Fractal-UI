@@ -158,11 +158,15 @@ section .examples > div {
 
 #text-section div {
   width: 100%;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #text-section p {
   padding-top: 1rem;
+}
+
+iframe {
+  padding-top: 2rem;
 }
 
 /* Media queries */
@@ -229,7 +233,8 @@ section .examples > div {
   }
 
   iframe {
-    max-width: 420px;
-    height: 200px;
+    max-width: 350px;
+    height: 250px;
+    padding-top: 2rem;
   }
 }
