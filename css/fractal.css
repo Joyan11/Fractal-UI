@@ -161,8 +161,8 @@ body {
 .badge--round {
   border-radius: 50%;
 
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
 }
 
 .badge-border {
@@ -203,6 +203,7 @@ body {
 
 .badge-primary p {
   font-size: 1.2rem;
+  padding-top: 0.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
