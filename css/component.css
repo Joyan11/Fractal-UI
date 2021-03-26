@@ -158,7 +158,7 @@ section .examples > div {
 
 #text-section div {
   width: 100%;
-  max-width: 60%;
+  max-width: 80%;
 }
 
 #text-section p {
