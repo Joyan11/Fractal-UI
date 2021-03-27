@@ -167,6 +167,11 @@ section .examples > div {
 
 iframe {
   padding-top: 2rem;
+  width: 700px;
+  height: 300px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
 }
 
 /* Media queries */
