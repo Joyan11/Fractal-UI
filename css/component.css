@@ -205,23 +205,21 @@ iframe {
   }
 
   .sidebar {
+    display: none;
     position: sticky;
     top: 60px;
     z-index: 1;
     background-color: var(--background-color);
-    height: 150px;
-    min-width: 100%;
+    height: 100vh;
+    max-width: 100%;
     overflow-y: scroll;
     border-right: none;
     border-bottom: 1px solid var(--primary-color);
   }
 
-  .sidebar {
-    background-color: var(--background-color);
-  }
   .ham-menu {
-    display: none;
-    position: fixed;
+    display: block;
+    position: absolute;
     right: 0;
     top: 15px;
     font-size: 5rem;
