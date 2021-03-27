@@ -7,12 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* delete later */
 
-/* main css */
 html {
   font-size: 10px;
-  /* position: relative; */
 }
 body {
   font-size: 1.6rem;
@@ -48,6 +45,7 @@ body {
   --card-badge: #ddb467;
   --light-gray: #a9abb3;
   --peach: #eaded7;
+  --snackbar: #201d2e;
 }
 
 .link {
@@ -165,13 +163,13 @@ body {
   width: 18px;
 }
 
-.badge-border {
-  border: 2px solid white;
-}
-
 .badge--bottom {
   top: 35px;
   left: 35px;
+}
+
+.badge-border {
+  border: 2px solid white;
 }
 
 .badge-active {
@@ -634,7 +632,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-color: #201d2e;
+  background-color: var(--snackbar);
   color: #fff;
   border-radius: 8px;
 }
@@ -644,8 +642,8 @@ body {
 }
 
 .snackbar--button {
-  background-color: #201d2e;
-  color: white;
+  background-color: var(--snackbar);
+  color: #fff;
   border: none;
   cursor: pointer;
 }
