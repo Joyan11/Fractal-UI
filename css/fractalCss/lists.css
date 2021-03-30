@@ -1,0 +1,15 @@
+/* Lists */
+
+.list {
+  list-style: none;
+}
+
+.list--item {
+  max-width: 40rem;
+  padding: 3rem 6rem;
+  border: 1px solid var(--default);
+}
+
+.list-space {
+  margin-bottom: 1rem;
+}

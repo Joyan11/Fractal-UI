@@ -1,0 +1,9 @@
+/* Ratings */
+
+.ratings {
+  font-size: 2rem;
+}
+
+.ratings-checked {
+  color: var(--yellow);
+}

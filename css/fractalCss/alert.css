@@ -1,0 +1,62 @@
+/* Alert */
+
+.alert {
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.alert--messege {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.alert--messege p {
+  padding-left: 0.5rem;
+}
+
+.alert-warning {
+  background-color: var(--warning-background);
+  color: var(--warning-color);
+}
+
+.alert-error {
+  background-color: var(--error-background);
+  color: var(--error-font);
+}
+.alert-success {
+  background-color: var(--success-background);
+  color: var(--success-font);
+}
+
+.alert-info {
+  background-color: var(--info-background);
+  color: var(--info-color);
+}
+
+/* Alert Icons */
+.alert ion-icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.alert-warning ion-icon {
+  color: var(--warning-icon);
+}
+
+.alert-error ion-icon {
+  color: var(--error-icon);
+}
+
+.alert-success ion-icon {
+  color: var(--success-icon);
+}
+.alert-info ion-icons {
+  color: var(--info-icon);
+}

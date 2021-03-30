@@ -1,0 +1,56 @@
+/* Badge */
+
+.badge {
+  position: absolute;
+}
+
+.badge--round {
+  border-radius: 50%;
+
+  height: 18px;
+  width: 18px;
+}
+
+.badge--bottom {
+  top: 35px;
+  left: 35px;
+}
+
+.badge-border {
+  border: 2px solid white;
+}
+
+.badge-active {
+  background-color: var(--active);
+}
+
+.badge-inactive {
+  background-color: var(--inactive);
+}
+
+/* Icon */
+
+.notification {
+  position: relative;
+}
+
+.notification-icon {
+  font-size: 4rem;
+}
+
+.badge--top {
+  left: 2.3rem;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.badge-primary p {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,135 @@
+/* Cards */
+.card {
+  display: flex;
+  width: 100%;
+}
+
+.card--verticle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--horizontal {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 50rem;
+}
+
+.card--body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.card--s {
+  max-width: 20rem;
+}
+
+.card--m {
+  max-width: 24rem;
+  height: auto;
+}
+
+.card--l {
+  width: 32rem;
+}
+
+.card--m .card--image {
+  position: relative;
+}
+
+.card--m .card--image > img {
+  max-width: 100%;
+  /* max-width: 27rem; */
+  height: auto;
+  display: block;
+}
+
+.card--horizontal .card--image > img {
+  max-width: 20rem;
+  display: block;
+}
+
+.card--body {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.card .card--image--s > img {
+  height: 24rem;
+  width: 20rem;
+}
+
+.card--body > * {
+  margin: 0.3rem 0;
+  padding-top: 0.3rem;
+}
+
+.card--title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.card--text {
+  font-size: 1.4rem;
+}
+
+.card--subtext {
+  font-size: 1.2rem;
+  color: var(--light-gray);
+  text-decoration: line-through;
+  padding-left: 0.5rem;
+}
+
+.card--button {
+  width: 100%;
+  max-width: 50%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  align-self: center;
+}
+
+/* badges on cards */
+
+.badge--square {
+  color: #fff;
+  border-radius: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.4rem 1.5rem;
+  background-color: var(--card-badge);
+}
+
+.badge-left {
+  position: absolute;
+  top: 4rem;
+}
+
+/* card dismiss */
+
+.card--dismiss {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+/* card overlay */
+
+.card--overlay {
+  opacity: 0.3;
+}
+
+.card--overlay--text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: #000;
+  font-size: 2rem;
+}

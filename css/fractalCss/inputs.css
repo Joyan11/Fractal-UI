@@ -1,0 +1,30 @@
+/* Input Fields */
+
+.input {
+  width: 100%;
+  max-width: 70%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+
+  transition: 0.2s;
+}
+
+.input-style {
+  border: 1px solid var(--primary);
+}
+
+.input-style:focus {
+  border: 2px solid var(--primary);
+}
+
+.error-style {
+  border: 2px solid var(--red);
+}
+
+.error-text {
+  display: block;
+  color: var(--red);
+  font-weight: bold;
+  padding: 0.1rem 0 0 0.5rem;
+}
