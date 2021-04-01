@@ -775,7 +775,7 @@
           </section>
 
           <section id="nav-section">
-            <h2>Notification bar</h2>
+            <h2>Navigation bar</h2>
             <div class="examples" style="margin-top: 1.6rem">
               <nav class="nav nav-primary">
                 <div class="nav--logo">
@@ -842,10 +842,14 @@
 
           <section id="modal-section">
             <h2>Modal</h2>
+            <button class="btn btn-secondary show-modal">Show Modal</button>
             <div class="modal">
               <div class="modal--window">
                 <h1 class="modal--title">Delete permanently ?</h1>
-                <ion-icon name="close-outline" class="modal--icon"></ion-icon>
+                <ion-icon
+                  name="close-outline"
+                  class="modal--icon hide-modal"
+                ></ion-icon>
                 <p class="modal--content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laudantium voluptatem, ad ducimus excepturi placeat quos.
@@ -924,6 +928,7 @@
     </div>
 
     <script src="./Js/app.js"></script>
+    <script src="./Js/fractal.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
