@@ -2,18 +2,16 @@
 .card {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .card--verticle {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .card--horizontal {
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   max-width: 50rem;
 }
 
