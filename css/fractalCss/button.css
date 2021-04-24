@@ -1,0 +1,114 @@
+/* Buttons */
+
+.btn {
+  padding: 0.9rem 1.3rem;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--round {
+  border-radius: 8rem;
+}
+
+/* button styles */
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.btn-default {
+  background-color: var(--default);
+}
+
+.btn-outline-default {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid var(--default);
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  color: var(--secondary);
+  border: 1.5px solid var(--secondary);
+}
+
+/* Button colors */
+.btn-red {
+  background-color: var(--red);
+  color: #fff;
+}
+
+.btn-yellow {
+  background-color: var(--yellow);
+  color: #fff;
+}
+
+.btn-green {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.btn-blue {
+  background-color: var(--skyblue);
+  color: #fff;
+}
+
+/* Button effects */
+.btn-hover:hover {
+  opacity: 0.5;
+}
+
+.btn-scale:hover {
+  transform: scale(1.1);
+}
+
+/* button with icons */
+
+.btn--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1rem;
+}
+.btn--icon--back {
+  flex-direction: row-reverse;
+}
+
+.btn--icon--front {
+  flex: row;
+}
+
+.btn div {
+  padding: 0 1rem;
+}
+
+.btn ion-icon {
+  font-size: 2rem;
+}
+
+/* Floating button */
+.btnfloat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  padding: 0.7rem;
+}
+
+.btnfloat ion-icon {
+  font-size: 2.5rem;
+}

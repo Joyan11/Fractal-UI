@@ -1,0 +1,17 @@
+/* Responsive Images */
+
+.image {
+  width: 100%;
+}
+
+.image--l {
+  max-width: 60rem;
+}
+
+.image--m {
+  max-width: 50rem;
+}
+
+.image--s {
+  max-width: 40rem;
+}

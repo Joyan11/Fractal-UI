@@ -1,0 +1,26 @@
+/* Avatar */
+
+.avatar-container {
+  display: inline-block;
+  position: relative;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar--s {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar--m {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar--l {
+  width: 15rem;
+  height: 15rem;
+}

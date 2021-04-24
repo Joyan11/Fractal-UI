@@ -1,0 +1,74 @@
+/* A JOYAN SERRAO PRODUCTION */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400,700&display=swap");
+@import "./fractalCss/avatar.css";
+@import "./fractalCss/alert.css";
+@import "./fractalCss/badge.css";
+@import "./fractalCss/button.css";
+@import "./fractalCss/card.css";
+@import "./fractalCss/inputs.css";
+@import "./fractalCss/lists.css";
+@import "./fractalCss/modal.css";
+@import "./fractalCss/navigation.css";
+@import "./fractalCss/rating.css";
+@import "./fractalCss/respimages.css";
+@import "./fractalCss/snackbar.css";
+@import "./fractalCss/textutility.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+/* Utility */
+
+:root {
+  --primary: #55b17e;
+  --green: #579c57;
+  --yellow: #caca6c;
+  --red: #bd3d3d;
+  --default: #cab8b8;
+  --active: #319931;
+  --inactive: #808080;
+  --blue: #5858c4;
+  --skyblue: #7e7ee4;
+  --secondary: #7e7171;
+  --error-font: #611a15;
+  --error-background: #e0aea8;
+  --error-icon: #f44336;
+  --success-font: #1e4620;
+  --success-background: #bde6bd;
+  --success-icon: #4caf50;
+  --warning-background: #ebd6ba;
+  --warning-color: #663c00;
+  --warning-icon: #ff9800;
+  --info-color: #0d3c61;
+  --info-background: #b9ddf8;
+  --info-icon: #2196f3;
+  --border-light: #cecedd;
+  --card-badge: #ddb467;
+  --light-gray: #a9abb3;
+  --peach: #eaded7;
+  --snackbar: #201d2e;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid var(--border-light);
+}
+
+.shadow {
+  box-shadow: 3px 3px 10px #777;
+}
